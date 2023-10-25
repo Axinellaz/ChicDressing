@@ -1,0 +1,78 @@
+2023-10-19T11:53:10+00:00 CRITICAL Maximum execution time of 60 seconds exceeded dans C:\MAMP\htdocs\chic-dressing0\wp-includes\functions.php à la ligne 4570
+
+2023-10-19T11:54:54+00:00 CRITICAL Maximum execution time of 60 seconds exceeded dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wpdb.php à la ligne 2459
+
+2023-10-19T12:59:16+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\MAMP\htdocs\chic-dressing0\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\MAMP\htdocs\chic-dressing0\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\MAMP\htdocs\chic-dressing0\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\MAMP\htdocs\chic-dressing0\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\MAMP\htdocs\chic-dressing0\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\MAMP\htdocs\chic-dressing0\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\MAMP\htdocs\chic-dressing0\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-hook.php(310): init_wysija_cron('')
+#7 C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 C:\MAMP\htdocs\chic-dressing0\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\MAMP\htdocs\chic-dressing0\wp-settings.php(632): do_action('init')
+#10 C:\MAMP\htdocs\chic-dressing0\wp-config.php(96): require_once('C:\\MAMP\\htdocs\\...')
+#11 C:\MAMP\htdocs\chic-dressing0\wp-load.php(50): require_once('C:\\MAMP\\htdocs\\...')
+#12 C:\MAMP\htdocs\chic-dressing0\wp-cron.php(46): require_once('C:\\MAMP\\htdocs\\...')
+#13 {main}
+  thrown dans C:\MAMP\htdocs\chic-dressing0\wp-content\plugins\wysija-newsletters\helpers\file.php à la ligne 161
+
+2023-10-19T12:59:17+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\MAMP\htdocs\chic-dressing0\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\MAMP\htdocs\chic-dressing0\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\MAMP\htdocs\chic-dressing0\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\MAMP\htdocs\chic-dressing0\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\MAMP\htdocs\chic-dressing0\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\MAMP\htdocs\chic-dressing0\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\MAMP\htdocs\chic-dressing0\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-hook.php(310): init_wysija_cron('')
+#7 C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 C:\MAMP\htdocs\chic-dressing0\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\MAMP\htdocs\chic-dressing0\wp-settings.php(632): do_action('init')
+#10 C:\MAMP\htdocs\chic-dressing0\wp-config.php(96): require_once('C:\\MAMP\\htdocs\\...')
+#11 C:\MAMP\htdocs\chic-dressing0\wp-load.php(50): require_once('C:\\MAMP\\htdocs\\...')
+#12 C:\MAMP\htdocs\chic-dressing0\wp-cron.php(46): require_once('C:\\MAMP\\htdocs\\...')
+#13 {main}
+  thrown dans C:\MAMP\htdocs\chic-dressing0\wp-content\plugins\wysija-newsletters\helpers\file.php à la ligne 161
+
+2023-10-19T13:20:40+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+
+2023-10-19T13:21:43+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+
+2023-10-19T13:21:48+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+
+2023-10-19T13:21:54+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+
+2023-10-19T13:22:05+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+
+2023-10-19T13:24:13+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+
+2023-10-19T13:24:21+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+
+2023-10-19T13:24:28+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+
+2023-10-19T13:24:34+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+
+2023-10-19T13:24:38+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+
+2023-10-19T13:24:42+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+
+2023-10-19T13:24:47+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+
+2023-10-19T13:30:14+00:00 CRITICAL Maximum execution time of 60 seconds exceeded dans C:\MAMP\htdocs\chic-dressing0\wp-admin\includes\class-wp-filesystem-direct.php à la ligne 82
+
+2023-10-19T13:50:52+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+
+2023-10-19T13:51:05+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+
+2023-10-19T13:51:40+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+
+2023-10-19T13:51:50+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+
+2023-10-19T13:51:53+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+
+2023-10-19T13:51:56+00:00 CRITICAL Paletter image not supported by webp dans C:\MAMP\htdocs\chic-dressing0\wp-includes\class-wp-image-editor.php à la ligne 584
+

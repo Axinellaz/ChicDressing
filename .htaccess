@@ -1,0 +1,34 @@
+# BEGIN Imagify: webp file type
+<IfModule mod_mime.c>
+	AddType image/webp .webp
+</IfModule>
+# END Imagify: webp file type
+
+# BEGIN WordPress
+# Les directives (lignes) entre « BEGIN WordPress » et « END WordPress » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /chic-dressing0/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /chic-dressing0/index.php [L]
+</IfModule>
+
+# END WordPress
+# BEGIN ShortPixelWebp
+# Les directives (lignes) entre « BEGIN ShortPixelWebp » et « END ShortPixelWebp » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+
+# END ShortPixelWebp
+# BEGIN Speed Optimizer by 10Web
+# Les directives (lignes) entre « BEGIN Speed Optimizer by 10Web » et « END Speed Optimizer by 10Web » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+
+
+# END Speed Optimizer by 10Web
